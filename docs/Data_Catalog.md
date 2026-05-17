@@ -45,7 +45,7 @@
 
 - **Purpose:** Stores transactional sales data for analytical purposes
 - **Columns:**
-- 
+
 | Column Name | Data Type | Description |
 |---|---|---|
 | order_number | NVARCHAR(50) | A unique alphanumeric identifier for each sale order (e.g., 'SO54496'). |
