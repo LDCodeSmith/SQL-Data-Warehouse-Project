@@ -9,3 +9,7 @@
 - **Purpose:** Stores customers details enriched with demographic and geographic data.
 - **Columns:**
   
+| Column Name | Data Type | Description |
+|---|---|---|
+| customer_key | INT | Surrogate Key uniquely identifying each customer recored in the dimension table. |
+| Customer_id | INT | Unique numerical identifier assigned to each customer. |
