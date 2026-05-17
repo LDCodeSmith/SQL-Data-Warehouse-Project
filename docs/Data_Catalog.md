@@ -46,6 +46,7 @@
 - **Purpose:** Stores transactional sales data for analytical purposes
 - **Columns:**
 | Column Name | Data Type | Description |
+|---|---|---|
 | order_number | NVARCHAR(50) | A unique alphanumeric identifier for each sale order (e.g., 'SO54496'). |
 | product_key | INT | Surrogate key linking the order ot the product dimension table. |
 | customer_key | INT | Surrogate key linking the order to the customer dimension table. |
