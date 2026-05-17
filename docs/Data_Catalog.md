@@ -27,7 +27,7 @@
 - **Purpose:** Provides information about the products and their attributes
 - **Columns:**
 
-| Column Name | Data Tyep | Description | 
+| Column Name | Data Type | Description | 
 |---|---|---|
 | product_key | INT | Surrogate key uniquely identifying each product record in the product dimension table. |
 | product_id | INT | A unique identifier assigned to the product for internal tracking and referencing. | 
@@ -45,6 +45,7 @@
 
 - **Purpose:** Stores transactional sales data for analytical purposes
 - **Columns:**
+- 
 | Column Name | Data Type | Description |
 |---|---|---|
 | order_number | NVARCHAR(50) | A unique alphanumeric identifier for each sale order (e.g., 'SO54496'). |
